@@ -10,7 +10,11 @@
   <body>
     {% include 'navbar.html' %}
     <div class="container mt-4">
-      {% block content %}{% endblock %}
+      <!-- {% block content %}{% endblock %} -->
+      
+      {% include 'hero.html' %}
+      {% include 'about.html' %}
+      {% include 'contactus.html' %}
       {% include 'footer.html' %}
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
