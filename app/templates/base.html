@@ -13,12 +13,7 @@
   <body>
     {% include 'navbar.html' %}
     <div class="container mt-4">
-      <!-- {% block content %}{% endblock %} -->
-      
-      {% include 'hero.html' %}
-      {% include 'about.html' %}
-      {% include 'contactus.html' %}
-      {% include 'footer.html' %}
+      {% block content %}{% endblock %}
     </div>
     {% include 'footer.html' %}
 
