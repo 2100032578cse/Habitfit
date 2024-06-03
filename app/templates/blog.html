@@ -1,0 +1,81 @@
+{% block styles %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/blog.css') }}">
+{% endblock %}
+<section class="wrapper">
+    <div class="container-fostrap">
+        <div>
+            <h1 class="heading">
+                Read Our Health Stories 
+            </h1>
+        </div>
+        <div class="content">
+            <div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="card">
+                            <a class="img-card" href="#">
+                            <img src="{{ url_for('static', filename='images/running-img.jpg') }}" />
+                          </a>
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                    <a href="#">Journey to a Healthier Life Starts Here
+                                  </a>
+                                </h4>
+                                <p class="">
+                                    Are you ready to transform your life, one habit at a time? ...
+                                </p>
+                            </div>
+                            <div class="card-read-more">
+                                <a href="#" class="btn btn-link btn-block">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="card">
+                            <a class="img-card" href="#">
+                            <img src="{{ url_for('static', filename='images/excersize.jpg') }}" />
+                          </a>
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                    <a href="#"> Top 5 Habits to Kickstart Your Health with HabitFit
+                                  </a>
+                                </h4>
+                                <p class="">
+                                    Building healthy habits can be challenging, but...
+                                </p>
+                            </div>
+                            <div class="card-read-more">
+                                <a href="#" class="btn btn-link btn-block">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <div class="card">
+                            <a class="img-card" href="#">
+                            <img src="{{ url_for('static', filename='images/fit-family.jpg') }}" />
+                          </a>
+                            <div class="card-content">
+                                <h4 class="card-title">
+                                    <a href="#">5  How HabitFit Helps You Stay Motivated
+                                  </a>
+                                </h4>
+                                <p class="">
+                                    Staying motivated can be tough, but HabitFit.....
+                                </p>
+                            </div>
+                            <div class="card-read-more">
+                                <a href="#" class="btn btn-link btn-block">
+                                    Read More
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
