@@ -1,5 +1,6 @@
 {% block styles %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 {% endblock %}
 
 <div class="about-container" id="about">
@@ -10,36 +11,31 @@
             <div class="col-md-6 mb-4">
                 <div class="card border-0 shadow-sm">
                     <div class="card-body">
-                        
-
-
                         <h3 class="card-title">Meet Our Team</h3>
                         <div class="row">
-                        <div class="col-md-6 mb-4">
-                            <img src="{{ url_for('static', filename='images/san.png') }}" alt="Team Member 1" class="img-fluid rounded-circle mb-2">
-                            <h4>Sandrine U</h4>
-                            <p>Software Engineer</p>
-                            <a href="mailto:sandrine@alx.com" class="btn btn-primary btn-sm">Contact Her</a>
-                            <p><a href="https://x.com/Sandrinerw" ><i class="fas fa-twitter"></i></a>
-                                <a href="https://www.linkedin.com/in/uwizeyimana-sandrine-774921228/" ><i class="fas fa-linkidin"></i></a>
-                                <a href="https://github.com/2100032578cse" ><i class="fas fa-github"></i></a>
-                            </p>
-
-                            
+                            <div class="col-md-6 mb-4">
+                                <img src="{{ url_for('static', filename='images/san.png') }}" alt="Team Member 1" class="img-fluid rounded-circle mb-2">
+                                <h4>Sandrine U</h4>
+                                <p>Software Engineer</p>
+                                <a href="mailto:sandrine@alx.com" class="btn btn-primary btn-sm">Contact Her</a>
+                                <p>
+                                    <a href="https://x.com/Sandrinerw" class="text-primary"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.linkedin.com/in/uwizeyimana-sandrine-774921228/" class="text-primary"><i class="fab fa-linkedin"></i></a>
+                                    <a href="https://github.com/2100032578cse" class="text-dark"><i class="fab fa-github"></i></a>
+                                </p>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <img src="{{ url_for('static', filename='images/napt.png') }}" alt="Team Member 2" class="img-fluid rounded-circle mb-2">
+                                <h5>Naphtal U</h5>
+                                <p>Software Developer</p>
+                                <a href="mailto:napthal@alx.com" class="btn btn-primary btn-sm">Contact Him</a>
+                                <p>
+                                    <a href="https://x.com/a_wisdom_man" class="text-primary"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.linkedin.com/in/usa-naphtal/" class="text-primary"><i class="fab fa-linkedin"></i></a>
+                                    <a href="https://github.com/usanaphtal112" class="text-dark"><i class="fab fa-github"></i></a>
+                                </p>
+                            </div>
                         </div>
-                        <div class="col-md-6 mb-4">
-                            <img src="{{ url_for('static', filename='images/napt.png') }}" alt="Team Member 2" class="img-fluid rounded-circle mb-2">
-                            <h5>Naphtal U</h5>
-                            <p>Software Developer</p>
-                            <a href="mailto:napthal@alx.com" class="btn btn-primary btn-sm">Contact Him</a>
-                            <p><a href="https://x.com/a_wisdom_man" ><i class="fas fa-twitter"></i></a>
-                                <a href="https://www.linkedin.com/in/usa-naphtal/" ><i class="fas fa-linkidin"></i></a>
-                                <a href="https://github.com/usanaphtal112" ><i class="fas fa-github"></i></a>
-                            </p>
-                        </div>
-                        </div>
-
-
                         <h3 class="card-title">Features</h3>
                         <ul class="list-unstyled">
                             <li><i class="fas fa-check"></i> Customizable habit tracking</li>
@@ -57,8 +53,8 @@
                         <p class="card-text">Our mission is to empower individuals to take control of their habits and achieve their personal goals. We believe that small, consistent actions can lead to significant improvements in health and well-being.</p>
                         <h3 class="card-title">Why Choose Us?</h3>
                         <p class="card-text">HabitFit Tracker offers a user-friendly interface, robust features, and a supportive community. Our app is backed by research and designed to help you stay motivated and accountable.</p>
-                        <h3 class="card-title">Github access</h4>
-                        <p class="card-text"><h6>Click on this link to access the project, <a href="https://github.com/2100032578cse/Habitfit"> Link</a></h6></p>
+                        <h3 class="card-title">Github access</h3>
+                        <p class="card-text"><h6>Click on this link to access the project, <a href="https://github.com/2100032578cse/Habitfit">Link</a></h6></p>
                     </div>
                 </div>
             </div>
