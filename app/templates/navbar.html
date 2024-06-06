@@ -9,18 +9,21 @@
         <li class="nav-item">
           <a class="nav-link" href="{{ url_for('main.index') }}">Home</a>
         </li>
+        {% if current_user.is_authenticated %}
         <li class="nav-item">
           <a class="nav-link" href="{{ url_for('main.dashboard') }}">Dashboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">About Us</a>
+          <a class="nav-link" href="{{ url_for('auth.logout') }}">Logout</a>
+        </li>
+        {% else %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ url_for('auth.login') }}">Login</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('main.login') }}">Login</a>
+          <a class="nav-link" href="{{ url_for('auth.register') }}">Sign Up</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{{ url_for('main.signup') }}">Sign Up</a>
-        </li>
+        {% endif %}
       </ul>
     </div>
   </nav>
