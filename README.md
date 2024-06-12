@@ -50,6 +50,13 @@ Here are the challenges we encountered during our project development, along wit
 2. **Compatibility Issues with Flask Extensions**:
     - **Challenge**: Some Flask extensions (such as Bootstrap) were not compatible with our development workspace.
     - **Solution**: To maintain functionality, we explored alternative approaches, such as using different libraries or customizing existing components.
+  
+  # Learnings and Technical Interests
+
+Through this project, we gained valuable insights in full-stack development, particularly with Flask and front-end technologies.
+We also learned about the importance of user experience design and how it impacts user retention and satisfaction.
+This project has sparked a deeper interest in health tech and the potential it holds for improving lives, as it was fulfilling our needs as well.
+
 
 
   
