@@ -12,3 +12,5 @@ Habitfit Tracker is an app designed to help you track your habits and improve yo
 
 Stay motivated, build positive routines, and achieve your lifestyle goals with Habitfit Tracker!
 
+here is the link to the deployed project app : https://sandrinerw.pythonanywhere.com/
+
