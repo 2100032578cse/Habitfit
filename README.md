@@ -58,6 +58,10 @@ Here are the challenges we encountered during our project development, along wit
 2. **Compatibility Issues with Flask Extensions**:
     - **Challenge**: Some Flask extensions (such as Bootstrap) were not compatible with our development workspace.
     - **Solution**: To maintain functionality, we explored alternative approaches, such as using different libraries or customizing existing components.
+  
+      # Landpage look
+      ![image](https://github.com/2100032578cse/Habitfit/assets/99196826/e415910a-8e13-4923-8111-f28c372536a7)
+
 
 
   # Learnings and Technical Interests
