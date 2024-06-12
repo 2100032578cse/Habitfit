@@ -1,6 +1,6 @@
 # Habitfit Tracker
 
-Habitfit Tracker is an app designed to help you track your habits and improve your lifestyle. Whether you’re aiming to establish new habits or break old ones, Habitfit provides an intuitive and user-friendly interface to monitor your progress.
+Habitfit Tracker is an app designed to help you track your habits and improve your lifestyle. Whether you’re aiming to establish new habits or break old ones, Habitfit provides an intuitive and user-friendly interface to monitor your progress._
 
 ## Features
 
@@ -12,5 +12,16 @@ Habitfit Tracker is an app designed to help you track your habits and improve yo
 
 Stay motivated, build positive routines, and achieve your lifestyle goals with Habitfit Tracker!
 
-here is the link to the deployed project app : https://sandrinerw.pythonanywhere.com/
+ ## Technologies
+
+- **Front-end:** HTML, CSS, JavaScript and Bootstrap
+- **Back-end:** Flask
+- **Database:** SQLite/MYSQL
+- **Hosting:** pythonanywhere
+
+  ![image](https://github.com/2100032578cse/Habitfit/assets/99196826/9478d5b5-eaad-4764-aeaf-b9910e6c447d)
+
+
+
+## here is the link to the deployed project app : https://sandrinerw.pythonanywhere.com/
 
