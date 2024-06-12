@@ -19,6 +19,9 @@ Stay motivated, build positive routines, and achieve your lifestyle goals with H
 - **Back-end:** Flask
 - **Database:** SQLite/MYSQL
 - **Hosting:** pythonanywhere
+  ![image](https://github.com/2100032578cse/Habitfit/assets/99196826/d7ba8d4f-e53e-4b67-9daf-6ef6caaf6b4c)
+
+  
 
 ## here is the link to the deployed project app : https://sandrinerw.pythonanywhere.com/
 
