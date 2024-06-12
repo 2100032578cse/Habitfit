@@ -73,3 +73,5 @@ This project has sparked a deeper interest in health tech and the potential it h
 
 Link to deployed project : https://sandrinerw.pythonanywhere.com/
 
+**_Have a happy time with our App_**
+
