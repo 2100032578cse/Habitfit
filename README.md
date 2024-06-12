@@ -19,7 +19,9 @@ Stay motivated, build positive routines, and achieve your lifestyle goals with H
 - **Back-end:** Flask
 - **Database:** SQLite/MYSQL
 - **Hosting:** pythonanywhere
-- 
+  
+  ![image](https://github.com/2100032578cse/Habitfit/assets/99196826/fcb46188-cce7-4db8-bec0-5babf965df45)
+
   ## User flow
   # User Registration and Login
 
@@ -59,7 +61,6 @@ Here are the challenges we encountered during our project development, along wit
     - **Challenge**: Some Flask extensions (such as Bootstrap) were not compatible with our development workspace.
     - **Solution**: To maintain functionality, we explored alternative approaches, such as using different libraries or customizing existing components.
 
-  ![image](https://github.com/2100032578cse/Habitfit/assets/99196826/203e3b75-0d86-4a26-8770-e1405e49aa03)
 
   # Learnings and Technical Interests
 
