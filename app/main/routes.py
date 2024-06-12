@@ -2,6 +2,7 @@ from flask import Blueprint, render_template
 
 main = Blueprint("main", __name__)
 
+# routes for app
 
 @main.route("/")
 def index():

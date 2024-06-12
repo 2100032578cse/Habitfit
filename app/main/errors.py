@@ -1,6 +1,7 @@
 from flask import render_template
 from . import main
 
+# for error custom handling
 
 @main.app_errorhandler(404)
 def not_found_error(e):
