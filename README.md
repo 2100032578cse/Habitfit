@@ -26,16 +26,24 @@ Stay motivated, build positive routines, and achieve your lifestyle goals with H
 - Users register using their name, email, and password.
 - Users log in using their email and password.
 - Upon login, the user’s role is checked to determine their permissions.
+  ![image](https://github.com/2100032578cse/Habitfit/assets/99196826/ddfc7e16-c8de-42e4-9fdc-32bd0ac77c9a)
+
 
 # Activity Management
 
 - Users can add general activities.
 - Daily activities are tracked using the `user_daily_activity` table.
+  ![image](https://github.com/2100032578cse/Habitfit/assets/99196826/42835ba9-08c0-497a-8184-53c4ca4781df)
 
 # Health Metrics Management
 
+
+
 - Users update their health metrics such as blood pressure, height, and weight.
 - BMI is calculated and stored.
+
+  ![image](https://github.com/2100032578cse/Habitfit/assets/99196826/3bdb67a2-207b-4aaa-9bf9-0648179e9b57)
+
 
   ![image](https://github.com/2100032578cse/Habitfit/assets/99196826/d7ba8d4f-e53e-4b67-9daf-6ef6caaf6b4c)
 
@@ -50,7 +58,9 @@ Here are the challenges we encountered during our project development, along wit
 2. **Compatibility Issues with Flask Extensions**:
     - **Challenge**: Some Flask extensions (such as Bootstrap) were not compatible with our development workspace.
     - **Solution**: To maintain functionality, we explored alternative approaches, such as using different libraries or customizing existing components.
-  
+
+  ![image](https://github.com/2100032578cse/Habitfit/assets/99196826/203e3b75-0d86-4a26-8770-e1405e49aa03)
+
   # Learnings and Technical Interests
 
 Through this project, we gained valuable insights in full-stack development, particularly with Flask and front-end technologies.
