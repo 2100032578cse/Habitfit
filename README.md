@@ -47,8 +47,6 @@ Stay motivated, build positive routines, and achieve your lifestyle goals with H
   ![image](https://github.com/2100032578cse/Habitfit/assets/99196826/3bdb67a2-207b-4aaa-9bf9-0648179e9b57)
 
 
-  ![image](https://github.com/2100032578cse/Habitfit/assets/99196826/d7ba8d4f-e53e-4b67-9daf-6ef6caaf6b4c)
-
   # Challenges and Solutions
 
 Here are the challenges we encountered during our project development, along with the solutions we implemented:
@@ -69,8 +67,5 @@ We also learned about the importance of user experience design and how it impact
 This project has sparked a deeper interest in health tech and the potential it holds for improving lives, as it was fulfilling our needs as well.
 
 
-
-  
-
-## here is the link to the deployed project app : https://sandrinerw.pythonanywhere.com/
+Link to deployed project : https://sandrinerw.pythonanywhere.com/
 
